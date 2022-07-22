@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Open+Sans:wght@400;600&family=PT+Serif:wght@400;700&display=swap');
+
+body{
+  font-family: 'PT Serif', serif;
+}
+
+.nav{
+  margin: 0 50px 0 50px;
+  background-color: rgb(36, 36, 36);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header{
+  background-color: rgb(36, 36, 36);
+  color: aliceblue;
+  height: 70vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 30px;
+}
+
+.header h1, p, button {
+  margin-left: 50px;
+}
+
+.header h1 {
+  font-size: 4rem;
+  width: 390px;
+}
+
+.header p {
+  margin-top: -20px;
+  margin-bottom: 60px;
+  width: 290px;
+  text-align: left;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.header button {
+  width: 170px;
+  padding: 20px;
+  font-size: 1.5rem;
+  
+}
+
+.section{
+  display:flex;
+  justify-content: space-evenly;
+  margin: 80px 15px;
+}
+
+.section p {
+  color: grey;
+  width: 180px;
+}
+
+.section p, h2 {
+  margin: 10px 20px;
+}
+
+.card img {
+  width: 130px
+}
